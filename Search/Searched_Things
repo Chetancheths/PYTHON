@@ -1,0 +1,5 @@
+# how to compare -two-dictionaries-in-python and if key are same -set the value as 1
+
+for key in conf.keys():
+    if key in codebranch_keys:
+         conf[key] = 1
